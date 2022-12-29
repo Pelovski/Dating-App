@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj": {}
+    "d:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj": {
+    "d:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "d:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj",
+        "projectPath": "d:\\Pavel\\Dating app\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
-        "outputPath": "D:\\Pavel\\Dating app\\DatingApp\\API\\obj\\",
+        "outputPath": "d:\\Pavel\\Dating app\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
